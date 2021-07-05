@@ -26,4 +26,4 @@ login:
 ![img_1.png](img_1.png)
 
 ## 6. 参考教程
-https://www.bilibili.com/video/BV1r54y1D72U/?spm_id_from=333.788.recommend_more_video.8
+https://www.bilibili.com/video/BV1r54y1D72U/

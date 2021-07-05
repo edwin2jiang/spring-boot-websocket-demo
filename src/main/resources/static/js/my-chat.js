@@ -22,7 +22,7 @@ $(function () {
     });
 
     //创建websocket对象
-    ws = new WebSocket("ws://localhost:8088/chat");
+    ws = new WebSocket("ws://localhost:8080/chat");
 
 
     // ws建立连接后

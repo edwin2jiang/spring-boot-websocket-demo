@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>聊天室</title>
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <!--<script type="text/javascript" src="/js/chat.js"></script>-->
+    <script type="text/javascript" src="/js/my-chat.js"></script>
+    <link type="text/css" rel="stylesheet" href="/css/chat.css">
+
+    <style>
+        .chat {
+            width: 1200px;
+            margin: 0 auto;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        #chatMeu {
+            padding: 10px;
+            color: #ffffff;
+            background: #4f4c4c;
+        }
+
+        .user-chat-with {
+            color: #57a7cd;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<h1 align="center">聊天室</h1>
+<div class="chat">
+    <div id="chatMeu">
+        <div class="user-header-text"></div>
+        <div class="user-chat-with">请选择好友聊天</div>
+    </div>
+    <!--聊天界面-->
+    <div id="chatBody">
+        <div id="chatMain">
+            <!--聊天展示区域-->
+            <div id="chatCnt">
+
+            </div>
+            <div id="chatArea">
+                <textarea id="tex_content" placeholder="请输入文字！"></textarea>
+                <input id="submit" type="button" value="发送">
+            </div>
+        </div>
+        <!--右侧-->
+        <div id="lists">
+            <!--好友列表-->
+            <div>
+                <ul style="background-color: darkgrey">好友列表</ul>
+                <ul id="friendsList">
+                    <!--<li><a onclick='chatWith("LiLi")'>LiLi</a></li>-->
+                </ul>
+            </div>
+            <hr>
+            <!--系统消息区-->
+            <div>
+                <ul style="background-color: darkgrey">系统通知</ul>
+                <ul id="systemMsg">
+                    <!--<li>Lili在线</li>-->
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

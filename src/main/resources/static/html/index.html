@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <!--引入js-->
+    <script type="text/javascript" src="/js/jquery.js"></script>
+
+    <style>
+        html,body{
+            height: 100%;
+        }
+
+        #app{
+            width: 960px;
+            margin: 0 auto;
+            background: #f0f3f8;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            top: 10%;
+            box-shadow: #eee 10px 10px 10px;
+        }
+
+    </style>
+</head>
+</head>
+<body>
+<div id="app">
+    <h1 style="text-align: center">首页</h1>
+
+    <br>
+
+    <table border="1" style="margin:0 auto;border-color: #eee" cellpadding="10" cellspacing="0">
+        <tr>
+            <td>用户名：</td>
+            <td>
+                <input id="uname" name="username" type="text" placeholder="请输入用户名称">
+            </td>
+        </tr>
+        <tr>
+            <td>密&nbsp&nbsp&nbsp&nbsp码：</td>
+            <td>
+                <input id="pwd" name="password" type="password" placeholder="请输入密码">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input id="btn" type="button" value="登录" onclick="login()">
+            </td>
+        </tr>
+    </table>
+    <br>
+    <p style="text-align: center">备注信息：用户名称任意，密码处填写YML配置文件中配置的密码（默认密码：123）</p>
+</div>
+<script type="text/javascript" src="/js/index.js"></script>
+</body>
+</html>

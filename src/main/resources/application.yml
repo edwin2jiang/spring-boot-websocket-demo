@@ -6,7 +6,7 @@ spring:
       suffix: .html
       prefix: /html/
 server:
-  port: 8080
+  port: 8081
 #登录用的测试密码,需要自行修改
 login:
   test:

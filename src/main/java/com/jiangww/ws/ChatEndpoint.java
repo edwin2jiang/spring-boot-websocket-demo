@@ -1,8 +1,8 @@
-package com.yyj.ws;
+package com.jiangww.ws;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.yyj.pojo.Message;
-import com.yyj.util.MessageUtils;
+import com.jiangww.pojo.Message;
+import com.jiangww.util.MessageUtils;
 import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpSession;
@@ -122,7 +122,6 @@ public class ChatEndpoint {
     @OnClose
     public void onClose(Session session) {
         String username = (String) httpSession.getAttribute("username");
-
 
         onlineUsers.remove(username);
         Set<String> names = onlineUsers.keySet();

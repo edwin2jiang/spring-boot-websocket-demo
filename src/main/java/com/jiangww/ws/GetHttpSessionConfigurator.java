@@ -1,4 +1,4 @@
-package com.yyj.ws;
+package com.jiangww.ws;
 
 import javax.servlet.http.HttpSession;
 import javax.websocket.HandshakeResponse;

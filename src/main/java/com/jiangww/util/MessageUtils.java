@@ -1,8 +1,8 @@
-package com.yyj.util;
+package com.jiangww.util;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.yyj.pojo.ResultMessage;
+import com.jiangww.pojo.ResultMessage;
 
 /**
  * .

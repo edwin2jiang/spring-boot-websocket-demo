@@ -1,7 +1,7 @@
-package com.yyj.controller;
+package com.jiangww.controller;
 
-import com.yyj.pojo.Result;
-import com.yyj.pojo.User;
+import com.jiangww.pojo.Result;
+import com.jiangww.pojo.User;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

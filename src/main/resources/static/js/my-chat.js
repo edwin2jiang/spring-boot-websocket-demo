@@ -16,13 +16,14 @@ $(function () {
         //请求url
         url: "/getUsername",
         success: function (res) {
+            console.log("读取到了用户信息");
             username = res;
             //$('#chatMeu').html('<p>用户：' + res + "<span style='float: right;color: greenyellow; height: 20px'>在线</span></p>")
         }
     });
 
     //创建websocket对象
-    ws = new WebSocket("ws://localhost:8080/chat");
+    ws = new WebSocket("ws://localhost:8081/chat");
 
 
     // ws建立连接后
